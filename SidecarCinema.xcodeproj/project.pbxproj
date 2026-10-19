@@ -1,0 +1,66 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* SidecarCinemaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* SidecarCinemaApp.swift */; };
+		A10000000000000000000002 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* MainView.swift */; };
+		A10000000000000000000003 /* CinemaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* CinemaController.swift */; };
+		A10000000000000000000004 /* ScreenGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* ScreenGeometry.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* SidecarCinemaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidecarCinemaApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* CinemaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaController.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* ScreenGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenGeometry.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B10000000000000000000006 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B10000000000000000000007 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B10000000000000000000008 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		B10000000000000000000009 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B1000000000000000000000A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1000000000000000000000B /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		B1000000000000000000000C /* SidecarCinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidecarCinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000000000000000000001 = {isa = PBXGroup; children = (D10000000000000000000002 /* SidecarCinema */, D10000000000000000000003 /* Frameworks */, D10000000000000000000004 /* Products */, ); sourceTree = "<group>"; };
+		D10000000000000000000002 /* SidecarCinema */ = {isa = PBXGroup; path = SidecarCinema; sourceTree = "<group>"; children = (B10000000000000000000001, B10000000000000000000002, B10000000000000000000003, B10000000000000000000004, ); };
+		D10000000000000000000003 /* Frameworks */ = {isa = PBXGroup; name = Frameworks; sourceTree = "<group>"; children = (B10000000000000000000005, B10000000000000000000006, B10000000000000000000007, B10000000000000000000008, B10000000000000000000009, B1000000000000000000000A, B1000000000000000000000B, ); };
+		D10000000000000000000004 /* Products */ = {isa = PBXGroup; name = Products; sourceTree = "<group>"; children = (B1000000000000000000000C, ); };
+/* End PBXGroup section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E10000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F10000000000000000000001 /* SidecarCinema */ = {isa = PBXNativeTarget; buildConfigurationList = G10000000000000000000002; buildPhases = (E10000000000000000000001, C10000000000000000000001, ); buildRules = (); dependencies = (); name = SidecarCinema; productName = SidecarCinema; productReference = B1000000000000000000000C; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10000000000000000000002 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 1600; TargetAttributes = {F10000000000000000000001 = {CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = G10000000000000000000001; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, ); mainGroup = D10000000000000000000001; productRefGroup = D10000000000000000000004; projectDirPath = ""; projectRoot = ""; targets = (F10000000000000000000001, ); };
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		G10000000000000000000003 /* Project Debug */ = {isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Debug; };
+		G10000000000000000000004 /* Project Release */ = {isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Release; };
+		G10000000000000000000005 /* Target Debug */ = {isa = XCBuildConfiguration; buildSettings = { ARCHS = arm64; CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = SidecarCinema; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video"; INFOPLIST_KEY_NSHighResolutionCapable = YES; PRODUCT_BUNDLE_IDENTIFIER = com.example.SidecarCinema; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; MACOSX_DEPLOYMENT_TARGET = 13.0; }; name = Debug; };
+		G10000000000000000000006 /* Target Release */ = {isa = XCBuildConfiguration; buildSettings = { ARCHS = arm64; CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = SidecarCinema; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video"; INFOPLIST_KEY_NSHighResolutionCapable = YES; PRODUCT_BUNDLE_IDENTIFIER = com.example.SidecarCinema; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; MACOSX_DEPLOYMENT_TARGET = 13.0; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G10000000000000000000001 /* Project configuration list */ = {isa = XCConfigurationList; buildConfigurations = (G10000000000000000000003, G10000000000000000000004, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		G10000000000000000000002 /* Target configuration list */ = {isa = XCConfigurationList; buildConfigurations = (G10000000000000000000005, G10000000000000000000006, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = F10000000000000000000002 /* Project object */;
+}
